@@ -61,19 +61,22 @@ function checkBtns(idx) {
             }, 380)
         }
     } else {
+        h2.innerHTML = `<big>Game Over!</big> Your score was ${level} <br> 
+                        <small>Press any key to start the game.</small>`
+
         // ---------------------------------------------------------------------- 
         // ------------- Fix the code -------------------------------------------
-        if(highestScore === 0) {
-            h2.innerHTML = `<big>Game Over!</big> Your score was ${level} <br> 
-            <small>Press any key to start the game.</small>`
-        }
+        // if(highestScore === 0) {
+        //     h2.innerHTML = `<big>Game Over!</big> Your score was ${level} <br> 
+        //     <small>Press any key to start the game.</small>`
+        // }
 
         
-        if(highestScore === 0 || highestScore < level) {
-            highestScore = level;
-            h2.innerHTML = `<big>Game Over!</big> Your score was ${level} - (Highest Score was ${highestScore}) <br> 
-            <small>Press any key to start the game.</small>`
-        }
+        // if(highestScore === 0 || highestScore < level) {
+        //     highestScore = level;
+        //     h2.innerHTML = `<big>Game Over!</big> Your score was ${level} - (Highest Score was ${highestScore}) <br> 
+        //     <small>Press any key to start the game.</small>`
+        // }
 
 
         document.body.classList.add("wrongBtn");
@@ -89,8 +92,13 @@ function btnPress() {
     let btn = this;
     userFlash(btn);
 
+    
+
     userBtn= btn.getAttribute("id");
     userSeq.push(userBtn);
+    
+    // for testing purpuse
+    console.log(`Clicked Value = ${userBtn}`);
     
     checkBtns(userSeq.length-1);
 }
