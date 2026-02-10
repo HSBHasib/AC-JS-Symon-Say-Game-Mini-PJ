@@ -21,7 +21,7 @@ h2 {
 .box-container {
     display: grid;
     grid-template-columns: repeat(2, 11.25rem);
-    row-gap: 2rem;
+    row-gap: 1.5rem;
     column-gap: 3.8rem;
     justify-content: center;
     margin-top: 2.5rem;
