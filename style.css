@@ -3,3 +3,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    height: 100vh;
+    text-align: center;
+    color: #1e1e1e;
+}
+
+h1 {
+    margin-block: 0.7rem;
+}
+
+h2 {
+    font-weight: 900;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 11.25rem);
+    row-gap: 2rem;
+    column-gap: 3.8rem;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.btn {
+    height: 11rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 1.5rem;
+    border: 0.5rem solid #1e1e1e;
+}
+
+.btn:nth-of-type(1) {
+    background-color: #d95980;
+}
+.btn:nth-of-type(2) {
+    background-color: #63aac0;
+}
+
+.btn:nth-of-type(3) {
+    background-color: #f99b45;
+}
+
+.btn:nth-of-type(4) {
+    background-color: #819ff9;
+}
