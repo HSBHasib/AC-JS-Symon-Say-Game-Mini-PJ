@@ -58,7 +58,7 @@ git clone [ https://github.com/HSBHasib/AC-JS-Symon-Say-Game-Mini-PJ.git ]
 cd AC-JS-Symon-Say-Game-Mini-PJ
 
 # Open the game
-# Run via Live Server extension in VS Code or open the hosted live link directly!
+Run via Live Server extension in VS Code or open the hosted live link directly!
 ```
 
 ## Developer
