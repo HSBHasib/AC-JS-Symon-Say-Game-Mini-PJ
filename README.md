@@ -11,7 +11,7 @@ This **Simon Says Game** is a lightweight, logic-based mini-game designed to tes
 
 ## 🔗 Links
 
-* 🌐 **Live Site:** [View Live Site](https://vercel.com/hsbhasi)
+* 🌐 **Live Site:** [View Live Site](https://symon-says-game-topaz.vercel.app/)
 * 💻 **GitHub Repo:** [View Github Repo](https://github.com/HSBHasib/AC-JS-Symon-Say-Game-Mini-PJ)
 
 ## 🛠️ Technologies Used
